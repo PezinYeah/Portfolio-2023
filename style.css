@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(rgb(98, 183, 248), rgb(49, 90, 196), rgb(82, 195, 233));
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 150px;
+    border-radius: 10px green ;
+}
+
+h2{
+    align-items: center;
+    font-size: 10px;
+}
+
+div{
+    font-size: 40px;
+    text-align: left;
+   
+}
+a{
+    color: black;
+    line-height: 100px;
+   
+}
+.botao{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(18, 125, 197);
+}

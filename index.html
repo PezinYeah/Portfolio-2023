@@ -1,0 +1,119 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="divmenu" id="menu">
+       <p><a href="./carta.html" target="_blank">| Carta de apresentação |</a> <a href="https://docs.google.com/presentation/d/1MKtQ9Wc4_uPx3i5k7pi3nJXa2ih7wsCCsgyv71khhXQ/edit?usp=sharing"
+        target="_blank">2021|</a> <a href="https://docs.google.com/presentation/d/1LEiOHZT6ehBxWzHE8CmylKW1G3yS_LszXDXDlYp3dKk/edit#slide=id.p" target="_blank">2022 |</a></p>
+        </div>
+<img src="https://images.squarespace-cdn.com/content/v1/599ed3067131a56df5e1a813/1504720946407-MRAQRXX4IV1CD7W42HXR/portfolio.png?format=1000w" alt="">
+
+<h2><img src="https://cdn-icons-png.flaticon.com/512/5837/5837150.png" alt="" width="430px"></h2>
+
+  <!DOCTYPE html>
+<html>
+  
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Aba Lateral</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+               
+            }
+    
+            .divmenu {
+                margin-left: 1500px;
+                padding: 20px;
+                font-size: 20px;
+                text-decoration: none;
+                position: fixed;
+                text-align: right;
+                
+            }
+
+            .sidebar {
+                position: fixed;
+                top: 0;
+                left: -200px;
+                width: 150px;
+                height: 100%;
+                background-color: #3355ec;
+                padding: 20px;
+                transition: left 0.3s ease;
+                font-size: 20px;
+                text-decoration: none;
+                position: fixed;
+                text-align: left;
+            }
+    
+            .content {
+                margin-left: 0;
+                padding: 12px;
+                transition: margin-left 0.3s ease;
+             
+            }
+    
+            .sidebar.open {
+                left: 0;
+                
+            }
+    
+            .content.open {
+                margin-left: 200px;
+                
+            }
+            a{
+                text-decoration: none;
+                color: rgb(246, 247, 246);
+                
+            }
+            h1{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+                text-align: left;
+            }
+            button{
+               margin-top: -700px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+        <div class="sidebar" id="sidebar">
+            <h1>Menu</h1>
+            <a href="m.html" target="_blank">Matemática</a><br>
+            <a href="#">Linguagens</a><br>
+            <a href="#">Natureza</a><br>
+            <a href="#">Humanas</a><br>
+            <a href="#">Banco de dados</a><br>
+            <a href="#">Dev de sistemas</a><br>
+            <a href="#">Programação</a><br>
+            <a href="#">Teste de sistemas</a><br>
+        </div>
+    
+        <div class="content" id="content">
+            <button onclick="toggleSidebar()" class="botao">|||</button>
+        </div>
+    
+        <script>
+            function toggleSidebar() {
+                var sidebar = document.getElementById('sidebar');
+                var content = document.getElementById('content');
+    
+                sidebar.classList.toggle('open');
+                content.classList.toggle('open');
+            }
+        </script>
+    </body>
+    </html>
